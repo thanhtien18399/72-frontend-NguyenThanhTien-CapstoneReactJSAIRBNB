@@ -1,0 +1,45 @@
+.footer{
+    background-color: #F7F7F7;
+    height: 100%;
+    margin-top: 20px;
+    border-top:1px solid rgb(221, 221, 221) ;
+}
+.footerhead{
+    padding-top: 50px;
+}
+.footerhead .itemUl{
+    list-style-type: none;
+}
+.footerhead .itemUl li{
+    margin-top: 16px;
+}
+.footerhead .itemUl li a{
+    color: rgb(34, 34, 34) ;
+    font-size: 12px ;
+    line-height: 18px ;
+    opacity: 0.6;
+    cursor: pointer;
+    
+}
+.footerBottom{
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top:1px solid rgb(221, 221, 221) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerBottom h4{
+    font-size: 14px;
+    opacity: 0.6;
+}
+.footerBottom .icon span{
+    margin:0 30px;
+    font-size: 14px;
+}
+.footerBottom .icon i{
+    margin:0 20px;
+    font-size: 18px;
+    color: rgb(34, 34, 34);
+}

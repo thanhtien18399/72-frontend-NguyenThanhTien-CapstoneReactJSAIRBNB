@@ -1,0 +1,218 @@
+.roomDetail h3{
+    font-size: 20px;
+}
+.star{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px ;
+}
+.roomName,
+.roomDetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.roomDetail{
+    margin-top: 30px;
+}
+.information{
+    width: 60%;
+}
+.bookRoom{
+    width: 35%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+
+}
+.bookRoom .date{
+    margin-bottom: 0;
+    padding: 10px 20px;
+    border: 1px solid #787878;
+    border-bottom:0 ;
+    border-radius: 10px 10px 0 0;
+
+}
+.bookRoom .date .rangePicker{
+    width: 100%;
+    padding: 10px 20px;
+    border: 0;
+}
+.bookRoom .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.bookRoom .title span{
+    font-size: 16px;
+    font-weight: 400;
+}
+.bookRoom .select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #787878;
+    border-radius: 0 0 10px 10px;
+}
+.bookRoom .option{
+    padding: 10px 20px;
+    border-bottom: 1px solid #787878;
+}
+.bookRoom .option .input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.bookRoom .option .input .btn{
+    width: 42px ;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+    color: rgb(113, 113, 113);
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bookRoom .option .input .btn:disabled{
+    cursor: not-allowed !important;
+    color: rgb(235, 235, 235) !important;
+    border-color: rgb(235, 235, 235) !important;
+    background: rgb(255, 255, 255) !important;
+}
+
+.bookRoom .buy {
+    padding: 10px 20px;
+    border-bottom: 1px solid #787878;
+    margin-bottom: 20px;
+}
+.bookRoom .buy .provisional{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #787878;
+}
+.bookRoom .buy .totalMoney{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* roomname */
+.roomName {
+    border-bottom:1px solid #c4c1c1;
+    padding-bottom: 20px;
+    margin-top: 20px ;
+}
+.roomName .icon{
+    background-color: #FF385C;
+    border-radius: 50%;
+    height: 62px;
+    width: 62px;
+    text-align: center;
+    line-height: 62px;
+}
+
+/* des */
+
+.des{
+    border-bottom:1px solid #c4c1c1;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.des .item{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+ .title{
+    font-size: 14px;
+    display: block;
+}
+
+.titleNote{
+    display: block;
+    color: #717171;
+    font-size: 14px;
+}
+
+/* convenient */
+
+.convenient{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.convenient .itemFalse,
+.convenient .itemTrue{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    margin-top:25px ;
+    width: 50%;
+}
+
+.comments{
+    margin-top: 30px;
+    border-top:1px solid #c4c1c1;
+    padding: 30px 0;
+}
+.comments .comment{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.comments .comment .item{
+    width: 50%;
+    padding: 20px;
+}
+.comments .comment .nameUser {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.comments .comment .nameUser .avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+.comments .comment .nameUser .avatar img{
+    width: 100%;
+    height: 100%;
+}
+.comments .addComment{
+    padding: 20px;
+}
+
+.btnbookRoom{
+    padding: 10px 5px;
+    min-height: 50px;
+    max-height: 55px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #FF385C;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.5s;
+}
+.btnbookRoom:hover{
+    background-color: blue;
+}
