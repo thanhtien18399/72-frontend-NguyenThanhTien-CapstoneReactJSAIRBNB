@@ -16,8 +16,8 @@ function MapRoom() {
    renderNameLoca();
   },[])
   
-  const goToDetail = () => {
-    history.push("/detail/" + roomInfo.id + "/" + roomInfo.maViTri)
+ const goToDetail = (idRoom) => {
+    history.push("/detail/" + idRoom + "/" + locationID)
   }
   const handleText = (isText, text) => {
     if (isText) {
@@ -47,6 +47,7 @@ function MapRoom() {
             return (
               <Col key={item.id} xs={24} sm={12} md={8} lg={8} >
                 <Card
+ onClick={()=>goToDetail(item.id)}
                   style={{ height: "400px", marginBottom: "20px", borderRadius: "20px", overflow: "hidden" }}
                   hoverable
                   cover={<img alt="example" src={item.hinhAnh} style={{ height: "200px", objectFit: "cover", objectPosition: "center top" }} />}
