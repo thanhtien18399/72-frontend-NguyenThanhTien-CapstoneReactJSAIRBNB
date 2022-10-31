@@ -318,7 +318,7 @@ function Header(props) {
             <div className="container">
                 <div className={Styles.header}>
                     <div className={Styles.logo}>
-                         <img src="https://img.icons8.com/bubbles/50/FA5252/home-page.png" alt='' />
+                         <img src="https://img.icons8.com/clouds/100/FA5252/home-page.png" alt='' />
                         <span style={{color:"#FF385C",fontWeight:"700"}}>Booking Room </span> 
                    </div>
                     <div className={Styles.filter} >
