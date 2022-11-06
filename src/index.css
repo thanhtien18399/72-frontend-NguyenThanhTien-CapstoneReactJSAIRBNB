@@ -30,3 +30,18 @@ body {
   padding: 0 50px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1024px){
+  .container{
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 768px){
+  .container{
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 576px){
+  .container{
+    padding: 0 30px;
+  }
+}

@@ -24,8 +24,8 @@ function RoomItem(props) {
       >
         <div>
           <h3 style={{ color: "#222222", height: "40px" }}>{tenPhong.substring(0, 30)}...</h3>
-          <p style={{ color: "#717171", fontSize: "14px", height: "20px" }}>{khach} Khách - {phongNgu} Phòng - {giuong} Giường - {phongTam} Phòng tắm</p>
-          <p style={{ color: "#717171", height: "20px" }}>
+          <p style={{ color: "#717171", fontSize: "14px", height: "30px" }}>{khach} Khách - {phongNgu} Phòng - {giuong} Giường - {phongTam} Phòng tắm</p>
+          <p style={{ color: "#717171", height: "30px" }}>
             {handleText(wifi, "Wifi")},  {handleText(dieuHoa, "Điều hòa")},  {handleText(mayGiat, "Máy giặt")},  {handleText(hoBoi, "Hồ bơi")}
           </p>
           <h3 style={{ color: "#222222", height: "20px" }}>${giaTien} <span style={{ fontWeight: 300 }}>đêm</span></h3>

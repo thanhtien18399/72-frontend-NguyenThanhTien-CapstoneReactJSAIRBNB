@@ -21,7 +21,7 @@ function RoomList() {
             <Row gutter={20}>
                 {roomInfo.data.map((item) => {
                     return (
-                        <Col key={item.id} xs={24} sm={12} md={8} lg={8} >
+                        <Col key={item.id} xs={24} sm={24} md={24} lg={8} >
                             <RoomItem item={item} />
                         </Col>
                     )

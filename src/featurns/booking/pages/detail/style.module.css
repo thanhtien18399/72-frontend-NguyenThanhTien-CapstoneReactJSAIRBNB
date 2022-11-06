@@ -216,3 +216,52 @@
 .btnbookRoom:hover{
     background-color: blue;
 }
+
+@media screen and (max-width: 1024px){
+    
+    .roomDetail{
+        flex-wrap: wrap;
+       }
+       .information{
+        width: 100%;
+        margin: 20px 0;
+       }
+       .bookRoom{
+        width: 100%;
+       }
+       
+}
+@media screen and (max-width: 768px){
+    
+    .roomDetail{
+        flex-wrap: wrap;
+       }
+       .information{
+        width: 100%;
+        margin: 20px 0;
+       }
+       .bookRoom{
+        width: 100%;
+       }
+       .roomName .icon{
+        border-radius: 0;
+        margin: 0 20px;
+       }
+    
+}
+@media screen and (max-width: 576px){
+   .roomDetail{
+    flex-wrap: wrap;
+   }
+   .information{
+    width: 100%;
+    margin: 20px 0;
+   }
+   .bookRoom{
+    width: 100%;
+   }
+   .roomName .icon{
+    border-radius: 0;
+    margin: 0 20px;
+   }
+}
