@@ -1,5 +1,5 @@
 import { Card, Col, Row } from 'antd'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory, useRouteMatch } from 'react-router-dom';
 import { fetchActionLocationRoom } from '../../../../common/utils/action';
